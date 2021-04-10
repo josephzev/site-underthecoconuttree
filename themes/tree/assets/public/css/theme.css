@@ -12304,6 +12304,14 @@ li a {
 }
 
 /*main-image*/
+.main-image {
+  height: 550px;
+}
+@media (min-width: 640px) {
+  .main-image {
+    height: 650px;
+  }
+}
 .main-image h1 {
   padding-bottom: 220px;
   color: white;

@@ -57,6 +57,11 @@ li{
 /*main-image*/
 
 .main-image{
+	height:550px;
+	@media (min-width: $breakpoint-small) {
+	        
+	        height:650px;
+	    }
 	h1{
 		padding-bottom: 220px; 
 		color:white; 
