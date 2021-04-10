@@ -1,0 +1,137 @@
+title = "home"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+
+
+
+<!-- viewport -->
+
+<div class="uk-height-viewport" style="position: absolute;"></div>
+
+<!-- main image -->
+
+<div class="main-image uk-background-cover uk-flex uk-flex-center uk-background-primary"  style=" height:540px" alt="" data-src="./storage/app/media/coconut-nice.jpg" uk-img>
+        <div class="uk-width-1-1" style="color:black;">
+            <h1 class="uk-text-center uk-heading uk-position-large uk-position-center">
+                Under The <span style="font-weight: bold;">Coconut Tree</span>
+            </h1>
+
+<!-- nav -->
+
+{% partial 'nav.htm' %}
+
+<!-- overview -->
+
+<div class="overview uk-width-1-1 uk-flex uk-flex-center" style="background-color: #6B78B4; color:#fff;">
+    <div class="uk-margin-bottom uk-container uk-container uk-text-center" style="font-weight: 550;line-height:1.7; font-size:16px;">
+        <hr class="uk-margin-top uk-margin-large-bottom" style="border-top: 1px solid black;">
+        <div class="uk-text-center uk-width-1-1"> <h2>Under the Coconut Tree Beach Homestay</h2></div>
+        <div class="uk-column-1-2@s">
+            <p>Featuring a private path which leads to An Bang Beach, Under The Coconut Tree Hoi An Homestay Hoi An Homestay offers private and dormitory rooms with coconut thatched roofs and free WiFi.
+
+            Located within 50 m of a morning market in Danang, Under The Coconut Tree Hoi An Homestay Hoi An Homestay is 1 km from Cua Dai public beach and 4 km from Hoi An Market. Marble Mountains is 13.1 km away while Da Nang International Airport is 21 km from the homestay.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- reviews -->
+
+<div class="uk-container uk-width-1-1 uk-padding" style="background-color:  #79BEDB" >
+    <h2 class="uk-margin-top uk-heading uk-text-center uk-padding-top" style="color: white">Love from our Guests</h2>
+    <div uk-slider="autoplay:true">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            <ul class="uk-slider-items uk-child-width-1-1">
+                <li>
+                    <div uk-grid class="uk-flex uk-flex-middle uk-text-center uk-child-width-1-2@m uk-child-width-1-1">
+                        <div class="">
+                            <img data-src="./storage/app/media/hammok.jpg" uk-img alt="">
+                        </div>
+                        <div class="uk-flex-first@m">
+                            <p style="color: white;">"Great, cozy place with the friendliest and most helpful staff ever!!! Good food, nice bamboo cottages furnished and decorated in traditional hoi an like style. Beach is just in a 3-min walk from the hotel"</p>
+                            <p class="uk-text-small">papuacompl wrote on TripAdvisor</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div uk-grid class="uk-flex uk-flex-middle uk-text-center uk-child-width-1-2@m uk-child-width-1-1">
+                        <div class="">
+                            <img data-src="./storage/app/media/meatball.jpg" uk-img alt="">
+                        </div>
+                        <div class="uk-flex-first@m">
+                            <p style="color: white;">"Great, cozy place with the friendliest and most helpful staff ever!!! Good food, nice bamboo cottages furnished and decorated in traditional hoi an like style. Beach is just in a 3-min walk from the hotel"</p>
+                            <p class="uk-text-small">papuacompl wrote on TripAdvisor</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+    </div>
+</div>
+
+<!-- accommodation -->
+
+<div class="info-sec uk-margin-top uk-container-meduim@l uk-container uk-padding" style="color:balck;">
+    <div uk-grid class="uk-grid-large uk-child-width-1-2@s uk-flex-middle uk-flex uk-flex-left uk-flex-center@s">
+        <div>
+            <img data-src="./storage/app/media/room.jpg" uk-img alt="">
+        </div>
+        <div class="uk-flex-left">
+            <a href="{{'accommodation'|page}}" class="uk-icon-link">
+                <h3 class="uk-txt-bold uk-heading uk-heading-small">Accommodation</h3>
+            </a>
+            <p class="uk-text-small" style="color:black">As far as dorms go this is one of the best I ever stayed. The beds are in a kind of bungalow style house with lots of fresh air. You can hear the ocean from your bunk. The matress is super comfortable and the lower beds have curtains. The whole place is full of plants and flowers - nice to sit and read in the garden if you want to chill</p>
+            <a href="{{'accommodation'|page}}" class="uk-icon-link"><span style="color:black;" uk-icon="icon:arrow-right; ratio:2.5"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- dinning -->
+
+<div class="info-sec uk-padding-remove-top uk-container-meduim@l uk-container uk-padding" style="color:black;">
+    <div uk-grid class="uk-grid-large uk-child-width-1-2@s uk-flex-middle uk-flex uk-flex-left uk-flex-center@s">
+        <div>
+            <img  data-src="./storage/app/media/dinning.jpg" uk-img alt="">
+        </div>
+        <div class="uk-flex-left uk-flex-first@s">
+            <a href="{{'accommodation'|page}}" class="uk-icon-link">
+                <h3 class="uk-txt-bold uk-heading uk-heading-small">Dinning</h3>
+            </a>
+            <p class="uk-text-small" style="color:black">As far as dorms go this is one of the best I ever stayed. The beds are in a kind of bungalow style house with lots of fresh air. You can hear the ocean from your bunk. The matress is super comfortable and the lower beds have curtains. The whole place is full of plants and flowers - nice to sit and read in the garden if you want to chill</p>
+            <a href="{{'dinning'|page}}" class="uk-icon-link"><span style="color:black;" uk-icon="icon:arrow-right; ratio:2.5"></span>
+            </a>
+        </div>
+    </div>
+</div>
+ 
+<!-- social media -->
+
+<div class="uk-margin-top uk-text-center uk-height-small uk-flex-center uk-flex uk-flex-middle" style="background-color: #6B78B4">
+    <div class="uk-margin-top uk-heading-small uk-container-medium" style="color:white;">
+        <p class="uk-margin-top uk-padding-top uk-margin-remove-bottom" style="color:white;"> Social Media</p>
+        <a href="https://www.instagram.com/coconuttreehoian" uk-icon="icon: instagram"></a>
+        <a href="https://www.facebook.com/UnderTheCoconutTree/" uk-icon="icon: facebook"></a>
+    </div>
+</div>
+
+<!-- location -->
+<div class="location uk-padding uk-padding-remove-top uk-padding-remove-bottom uk-margin-top uk-container-xsmall uk-child-width-1-1" style="color:black;">
+    <hr class="">
+    <div class="toggle uk-width-1-1">
+        <a class="left" uk-toggle="target: #toggle-usage; cls: uk-hidden;">Location</a>
+        <a class="right" uk-toggle="target: #toggle-usage; cls: uk-hidden;" uk-icon="plus"></a>
+    </div>
+    <div id="toggle-usage" class="uk-hidden">
+        <p>The beach has rapidly grown from a sleepy beach side village, now thriving and becoming its own destination. An Bang Beach became popular so quickly, that the area is not very built up at all, adding to its beach village feel. The bars and restaurants are all quite small, but they definitely do not fault when it comes to delicious food, refreshing drinks and entertainment. There are substantial amounts of money being put into An Bang, attracting even more holiday makers to the area.
+
+        An Bang Beach is well set up for tourists. There are a few ATMs, pharmacies, convenience stores, clothing and swimming accessory shops. Coupled with lots of bars, restaurants, hotels, villas, homestays, spas, massage salons, and even cooking classes.
+        </p>
+    </div>
+    <hr class="">
+
+</div>

@@ -1,0 +1,34 @@
+
+<!-- nav largescreen-->
+
+            <nav id="nav" class="nav-large uk-visible@s uk-overlay uk-navbar-transparent uk-light uk-padding-remove uk-width-1-1"    uk-navbar uk-sticky="show-on-up:true animation:uk-animation-slide-top"  uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav " style="font-size: 35px; color:white;">
+                        <li class="uk-light"><a style="cursor: default;" class="uk-light" href="{{'home' | page}}"><div class="nav-a uk-light {% if this.page.id == 'home' %} active {% endif %}">Overview</div></a></li>
+
+                        <li><a style="cursor: default;" href="{{ 'dining' | page }}"><div class="nav-a uk-light {% if this.page.id == 'dining' %} active {% endif %}">Dining</div></a></li>
+                       
+                        <li><a style="cursor: default;" href="{{ 'accommodation' | page }}"><div class="nav-a uk-light {% if this.page.id == 'accommodation' %} active {% endif %}">Accommodation</div></a></li>
+
+
+                    </ul>
+                </div>
+                <!-- <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav " style="font-size: 35px; color:white;">
+                        
+                        <li><a style="cursor: default;" href="{{ 'contact' | page }}"><div class="nav-a uk-light"></div></a></li>
+                    </ul>
+                </div> -->
+            </nav>
+
+<!-- nav smallscreen -->
+
+            <div>
+                <nav class="burger uk-nav uk-nav-default uk-hidden@s uk-overlay uk-padding-remove uk-width-1-1 uk-margin-remove" uk-navbar uk-sticky>
+                    <div class=" uk-navbar-left">
+                      <a class="uk-margin-left" uk-navbar-toggle-icon="ratio:1.4" uk-toggle href="#navmodal" ></a>                  
+                      </div>
+                </nav>
+           </div>
+        </div>
+</div>
