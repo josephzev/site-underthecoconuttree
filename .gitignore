@@ -1,3 +1,5 @@
+/vendor
+
 /bootstrap/compiled.php
 composer.phar
 .DS_Store
@@ -23,4 +25,3 @@ _assets_
 
 */vendor/
 
-/vendor
