@@ -20,5 +20,4 @@ nbproject
 
 node_modules/
 _assets_
-
-/vendor
+*/vendor/
