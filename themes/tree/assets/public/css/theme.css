@@ -12299,6 +12299,10 @@ li a {
   color: white;
 }
 
+.nav-modal a {
+  color: #fff !important;
+}
+
 /*main-image*/
 .main-image h1 {
   padding-bottom: 220px;
