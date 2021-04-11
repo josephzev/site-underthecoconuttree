@@ -12313,7 +12313,7 @@ li a {
   }
 }
 .main-image h1 {
-  padding-bottom: 220px;
+  padding-bottom: 320px;
   color: white;
   text-shadow: 2px 2px 5px #6B78B4;
 }
@@ -12367,6 +12367,12 @@ li a {
   }
 }
 
+@media (min-width: 960px) {
+  .reviews p {
+    font-size: 19px;
+  }
+}
+
 .location {
   margin-left: auto;
   margin-right: auto;
@@ -12384,7 +12390,7 @@ li a {
   font-size: 35px;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Lato", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .location .toggle .right {
   float: right;
@@ -12393,7 +12399,7 @@ li a {
 .location p {
   margin-top: 10px;
   width: 100%;
-  font-family: "Lato", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   letter-spacing: 1.2px;
 }
 @media (min-width: 960px) {
@@ -12403,6 +12409,13 @@ li a {
 }
 
 /*room sections*/
+.room-sections .check {
+  color: #000;
+}
+.room-sections .check:hover {
+  color: #999;
+}
+
 /*dining*/
 .dining-sec {
   padding-bottom: 0;
@@ -12420,7 +12433,6 @@ li a {
 .dining-sec h3 {
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 2px 2px 5px #6b78b4;
   font-size: 30px;
 }
 .dining-sec .flex {
